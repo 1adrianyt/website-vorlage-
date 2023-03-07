@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Über mich</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Über mich</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Startseite</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="intro">
+        <h2>Willkommen auf meiner Seite</h2>
+        <p>Ich bin ein begeisterter Fotograf und liebe es, Momente festzuhalten.</p>
+      </section>
+      <section id="gallery">
+        <h2>Meine Bilder</h2>
+        <div class="image-container">
+          <img src="img1.jpg" alt="Bild 1">
+          <img src="img2.jpg" alt="Bild 2">
+          <img src="img3.jpg" alt="Bild 3">
+          <img src="img4.jpg" alt="Bild 4">
+          <img src="img5.jpg" alt="Bild 5">
+          <img src="img6.jpg" alt="Bild 6">
+        </div>
+      </section>
+      <section id="about-me">
+        <h2>Über mich</h2>
+        <img src="portrait.jpg" alt="Portrait von mir">
+        <p>Ich heiße Max und bin 28 Jahre alt. Seit ich denken kann, habe ich eine Leidenschaft für die Fotografie. Ich habe in den letzten Jahren verschiedene Kurse besucht und mir autodidaktisch viel Wissen angeeignet. Meine Spezialität sind Porträts und Landschaftsfotografie.</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Max Mustermann</p>
+    </footer>
+  </body>
+
+
+  <style>
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px;
+}
+
+#gallery .image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#gallery img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+}
+
+#about-me img {
+  float: left;
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+
+  </style>
+
+
+</html>
